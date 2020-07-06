@@ -61,6 +61,9 @@ input{
    margin-bottom: 5%;
    
 }
+input:hover{
+box-shadow: 0 0 2px grey;
+}
 
 form button {
     background-color: rgba(206, 206, 206, 0.54);
