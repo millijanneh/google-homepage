@@ -1,0 +1,116 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 98vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul,ol,body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+}
+
+#top-nav{
+    margin-left: auto;
+    display: flex;
+    list-style: none;
+    margin-top: 1%;
+    margin-right: 1%;
+}
+#top-nav li a{
+    padding: .5em 1em .5em 1em;
+    text-decoration: none;
+}
+#top a{
+    color: black;
+}
+
+#top:hover{
+    text-decoration: underline;
+    
+}
+#sign-in{
+    background-color: rgb(71, 71, 255);
+    color:white ;
+   
+}
+main{
+   margin-top: auto;
+   margin-bottom: auto;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+}
+#main-div{
+   
+}
+#logo{
+margin-bottom: 5%;
+
+}
+
+input{
+    height: 43px;
+    width: 560px;
+    border: .1em solid;
+    border-radius: 30em;
+   border-color: rgba(197, 197, 197, 0.54);
+   margin-bottom: 5%;
+   
+}
+
+form button {
+    background-color: rgba(206, 206, 206, 0.54);
+    height: 3em;
+    margin-left: 1%;
+}
+form button:hover{
+    background-color: rgba(105, 104, 104, 0.54);
+}
+footer{
+   
+    background-color:rgba(160, 158, 158, 0.54);
+   height: 15%;
+}
+footer span{
+    position: center;
+}
+#footer-div{
+    display: flex;
+
+}
+
+#left-nav ul{
+    display: flex;
+}
+#left-nav li{
+    list-style: none;
+}
+#left-nav li a{
+    padding: .5em 1em .5em 0;
+    text-decoration: none;
+    color: black;
+    
+}
+#right-nav{
+   margin-left: auto;
+  
+}
+#right-nav ul{
+    display: flex;
+  
+}
+#right-nav li{
+    list-style: none;
+}
+#right-nav li a{
+    padding: .5em 1em .5em 1em;
+    text-decoration: none;
+    color: black;
+}
+footer nav li:hover{
+    text-decoration: underline;
+}
